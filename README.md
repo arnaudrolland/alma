@@ -25,3 +25,11 @@ https://getcomposer.org/download/
 Installer les dépendances via composer
 $ php composer.phar install
 
+6/
+Injecter les data fixtures (données d'exemple en base) :
+$ php bin/consle doctrine:fixtures:load
+
+7/
+Lancer le serveur (si local)
+$ php bin/console server:run
+
