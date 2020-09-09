@@ -18,18 +18,18 @@ ATTENTION aux doubles guillemets !
 
 
 4/
-Telecharger composer à la racine du projet : 
+Telecharger composer à la racine du projet (/alma) : 
 https://getcomposer.org/download/
 
 5/
-Installer les dépendances via composer
+Installer les dépendances via composer a la racine du projet (/alma)
 $ php composer.phar install
 
 6/
-Injecter les data fixtures (données d'exemple en base) :
+Injecter les data fixtures (données d'exemple en base) a la racine du projet (/alma):
 $ php bin/consle doctrine:fixtures:load
 
 7/
-Lancer le serveur (si local)
+Lancer le serveur (si local) a la racine du projet (/alma):
 $ php bin/console server:run
 
