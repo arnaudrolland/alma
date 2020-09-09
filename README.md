@@ -9,7 +9,7 @@ Cloner le repo git
 Créer une base de données vide
 
 3/
-Changer les valeur dans .env :
+Changer les valeur dans .env  (/alma/.env):
 - la base de données : DATABASE_URL=mysql://root:root@127.0.0.1:3306/alma?serverVersion=5.7
 - l'url (si besoin) du l'api react : API_URL="'http://localhost:8000/api'"
 - l'url de l'api  alma : ALMA_URL="'http://0.0.0.0:5000/'"
