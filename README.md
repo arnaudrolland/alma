@@ -27,7 +27,9 @@ $ php composer.phar install
 
 6/
 Injecter les data fixtures (données d'exemple en base) a la racine du projet (/alma):
-$ php bin/consle doctrine:fixtures:load
+$ php bin/console doctrine:fixtures:load
+
+Dire "oui" pour la purge de la bdd !
 
 7/
 Lancer le serveur (si local) a la racine du projet (/alma):
